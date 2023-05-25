@@ -1,0 +1,115 @@
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Img/fondoDegradado.jpg);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #1c87c9;
+}
+
+.formulario {
+    padding: 40px;
+    border-radius: 0.7%;
+    margin: 25px;
+    background: #f5f5f5;
+}
+
+form {
+    position: relative;
+    bottom: 15px;
+}
+
+input {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    border-radius: 0.40em;
+}
+
+.btn_cancelar:hover,
+.btn_guardar:hover {
+    cursor: pointer;
+    background-color: #033c4a;
+}
+
+.botones {
+    position: relative;
+}
+
+.btn_guardar {
+    position: relative;
+    width: 48%;
+    padding: 10px;
+    background: #468494;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-radius: 0.40em;
+}
+
+.btn_cancelar {
+    position: absolute;
+    width: 48%;
+    left: 50%;
+    top: 0;
+    padding: 10px;
+    background: #468494;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-radius: 0.40em;
+}
+
+.imagenes_1 {
+    position: absolute;
+    left: 80px;
+    bottom: 300px;
+}
+
+.imagenes_2 {
+    position: absolute;
+    right: 120px;
+    top: 300px;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+}
+
+.img_pesa {
+    margin-top: 0;
+    margin-left: 20%;
+}
+
+.img_proteina {
+    transform: rotate(-20deg);
+    margin-top: -10%;
+    margin-left: 65%;
+}
+
+.img_shaker {
+    transform: rotate(10deg);
+    margin-top: 2%;
+    margin-left: 28%;
+}

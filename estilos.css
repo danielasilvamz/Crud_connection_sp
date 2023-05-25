@@ -1,0 +1,110 @@
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+h1{
+    font-size: 3em;
+    text-align: center; 
+    color: aliceblue;
+
+}
+h2 {
+    font-size: 2em;
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+}
+p {
+    margin: 0 0 5px;
+}
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Img/fondoDegradado.jpg);
+}
+form {
+    padding: 25px;
+    margin: 25px;
+    background: #f5f5f5; 
+    border-radius: 0.7%;
+}
+
+
+.logo {
+    width: 400px;
+    
+    
+    
+}
+
+input {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    border-radius:0.40em; 
+}
+
+input::placeholder {
+    color: #666;
+}
+
+
+#btn_registrar:hover{
+    cursor:pointer;
+    background-color:#033c4a;
+}
+/* button[type="submit"] */
+.boton{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #468494; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius:0.40em; 
+}
+
+input[type="submit"]:hover{
+    background: #68a4ac;
+}
+
+@media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+        margin-top: 0;
+        margin-left: 20%;
+    }
+    .fa-at {
+        margin-top: -10%;
+        margin-left: 65%;
+    }
+    .fa-mail-bulk {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+}
+
+.alerta{
+    text-align: center;
+    color: red;
+}
+
+.success{
+    text-align: center;
+    color: rgb(33, 129, 30);
+}
